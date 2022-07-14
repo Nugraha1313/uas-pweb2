@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.register-box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.register-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.register-box .user-box {
+  position: relative;
+}
+
+.register-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #a9a9a9;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.register-box .user-box label {
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.register-box .user-box input:focus ~ label,
+.regsiter-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+#submit {
+  color: #1f51ff;
+  border: 1px solid #6180f1;
+}
+
+#submit:hover {
+  background: #1f51ff;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #1f51ff, 0 0 25px #1f51ff, 0 0 50px #1f51ff,
+    0 0 100px #1f51ff;
+  cursor: pointer;
+}
+.btn_style {
+  padding: 10px 20px;
+  background-color: transparent;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  border: none;
+}
+
+.form-footer {
+  padding-top: 50px;
+  color: #ffffff;
+}
+p {
+  color: white;
+}
+
+button > a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.posisi-head {
+  margin-top: 0;
+  margin-left: 81%;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+.edit {
+  margin-left: 63%;
+}
+.msg {
+  color: white !important;
+}
